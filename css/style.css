@@ -52,17 +52,23 @@ a {
   color: inherit;
 }
 
-.our-courses-section {
+.our-courses-main-container {
   width:100%;
+  background-color:var(--gray);
+}
+
+.our-courses-section {
+  max-width:1440px;
   background-color:var(--gray);
   padding-bottom:100px;
   padding-top:100px;
+  margin:auto;
 }
 
 .our-courses-top-container {
   display:flex;
   justify-content:space-between;
-  width:85%;
+  width:86.53%;
   margin:auto;
   margin-bottom:40px;
 }
@@ -92,7 +98,7 @@ a {
 }
 
 .our-courses-cards-container {
-  width:85%;
+  width:86.53%;
   margin:auto;
 }
 
@@ -101,17 +107,18 @@ a {
   display:flex;
   gap:20px;
   width:100%;
+  margin:auto;
 }
 
 .our-courses-cards-li {
-  width:calc((100% - 40px) / 3);
+  width:calc(((100% - 40px) / 3));
   border-radius: 12px;
   overflow: hidden;
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .our-courses-card {
-  width:400px;
+  width:100%;
   background-image: var(--linear-gradiant);
   display:flex;
   flex-direction: column;
