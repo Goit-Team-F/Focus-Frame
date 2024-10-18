@@ -172,3 +172,51 @@ a {
   font-weight: 400;
   flex:1;
 }
+
+
+/* Tablet */
+@media only screen and (max-width: 1279px) {
+  .our-courses-title {
+    flex:8;
+
+  }
+
+  .our-courses-cards-ol {
+    flex-wrap: wrap;
+  }
+
+  .our-courses-cards-li {
+    width:calc(((100% - 20px) / 2));
+  }
+}
+
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+  .our-courses-top-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    gap:20px;
+    margin:auto;
+  }
+
+  .our-courses-title {
+    width:100%;
+    margin:auto;
+  }
+
+  .our-courses-text {
+    width:100%;
+    margin:auto;
+    margin-bottom:20px;
+  }
+
+  .our-courses-cards-ol {
+    flex-wrap: wrap;
+  }
+
+  .our-courses-cards-li {
+    width:100%;
+  }
+}
