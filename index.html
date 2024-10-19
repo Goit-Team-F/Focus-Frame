@@ -23,21 +23,53 @@
   <body>
     <!-- Header Kısmı -->
     <div class="container">
-      <div class="header" style="width: 1440px">
+      <div class="header">
         <header>
           <nav class="menu-nav">
             <div class="div-nav">
-              <a class="nav-logo-title" href="#">Focus.Frame</a>
+              <a class="nav-logo-title" href="#">
+                <svg class="header-logo-icon" width="123" height="16">
+                  <use href="./images/icons.svg#icon-logo"></use>
+                </svg>
+              </a>
+              <a
+                class="mobile-sign-up"
+                href="index.html#sign-up"
+                aria-label="Sign Up"
+              >
+                <svg class="mobile-sign-up-svg" width="16" height="16">
+                  <use href="./images/icons.svg#icon-sign-up"></use>
+                </svg>
+              </a>
+              <button class="header-menu-btn" type="button" aria-label="button">
+                <svg class="header-menu-btn-icon" width="32" height="22">
+                  <use href="./images/icons.svg#nav-icon"></use>
+                </svg>
+              </button>
               <ul class="nav-menu-list">
-                <li><a class="link-nav" href="#">ABOUT US</a></li>
-                <li><a class="link-nav" href="#">OUR COURSES</a></li>
-                <li><a class="link-nav" href="#">OUR MENTORS</a></li>
-                <li><a class="link-nav" href="#">REVIEWS</a></li>
-                <li><a class="link-nav" href="#">CONTACTS</a></li>
+                <li>
+                  <a class="link-nav" href="index.html#about-us">ABOUT US</a>
+                </li>
+                <li>
+                  <a class="link-nav" href="index.html#our-courses"
+                    >OUR COURSES</a
+                  >
+                </li>
+                <li>
+                  <a class="link-nav" href="index.html#our-mentors"
+                    >OUR MENTORS</a
+                  >
+                </li>
+                <li>
+                  <a class="link-nav" href="index.html#reviews">REVIEWS</a>
+                </li>
+                <li>
+                  <a class="link-nav" href="index.html#contact">CONTACTS</a>
+                </li>
               </ul>
             </div>
             <div class="sign-up">
-              <a href="#">SIGN UP</a>
+              <a href="index.html#sign-up">SIGN UP</a>
             </div>
           </nav>
         </header>
@@ -73,7 +105,9 @@
                     />
                   </div>
                   <div class="hero-row3-col2">
-                    <a href="#Reviews"><h5>Our happy students</h5></a>
+                    <a href="#Reviews">
+                      <h5>Our happy students</h5>
+                    </a>
                     <svg class="happy-students-arrow">
                       <use
                         href="./images/icons.svg#icon-right-arrow"
@@ -100,6 +134,7 @@
               <div class="hero-col2">
                 <img
                   src="/images/Photographer.jpg"
+                  alt="photographer"
                   width="397"
                   height="520"
                   class="photographer"
@@ -115,7 +150,7 @@
               us!
             </h2>
           </div>
-          <div class="about-us">
+          <div class="about-us" id="about-us">
             <section class="aboutus">
               <h2 class="au-title">About <span>Us</span></h2>
               <div class="au-wrap">
@@ -145,7 +180,7 @@
             </section>
           </div>
           <div class="our-courses">
-            <section class="our-courses-section">
+            <section class="our-courses-section" id="our-courses">
               <div class="our-courses-top-container">
                 <h3 class="our-courses-title">
                   Our <span class="our-courses-title-span">Courses</span>
@@ -240,7 +275,7 @@
             </section>
           </div>
           <div class="our-mentors">
-            <section class="our-mentor-section">
+            <section class="our-mentor-section" id="our-mentors">
               <h2 class="our-mentor-title">
                 Our <span class="our-mentor-span">Mentors</span>
               </h2>
@@ -293,7 +328,7 @@
             </section>
           </div>
           <div class="sing-up">
-            <section>
+            <section id="sign-up">
               <!--Sign Up-->
               <div class="form-content">
                 <h2>Sign <span>Up</span></h2>
@@ -314,8 +349,12 @@
                     placeholder="Enter your email"
                     required
                   />
-                  <textarea placeholder="Message" required></textarea>
-                  <button type="submit">SEND</button>
+                  <textarea
+                    placeholder="Message"
+                    required
+                    class="form-text-area"
+                  ></textarea>
+                  <button type="submit" class="form-button">SEND</button>
                   <p class="privacy-text">
                     By clicking on "Send" button, you agree to our
                     <a href="#">Privacy Policy</a> and allow Promodo to use this
@@ -332,7 +371,7 @@
             </section>
           </div>
           <div class="reviews">
-            <section>
+            <section id="reviews">
               <h1 class="reviews-title">Reviews</h1>
               <div class="person-review">
                 <div class="abraham-border">
@@ -387,7 +426,7 @@
         <footer>
           <div class="footer-container">
             <!-- Sol sütun -->
-            <div class="footer-column-a">
+            <div class="footer-column-a" id="contact">
               <h2>Focus.Frame</h2>
               <p>+38 066 543 8912</p>
               <p class="contact-p">
