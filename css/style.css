@@ -245,6 +245,40 @@ body {
 
 /*HEADER*/
 
+.hamburger-menu{
+  display: none;
+  position:fixed;
+  background-color: var(--brown);
+  width: 480px;
+  height: 1024px;
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
+.hamburger-menu-list{
+  padding-top: 232px;
+  padding-left: 64px;
+}
+.hamburger-menu-list li{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18.23px;
+  margin-bottom: 28px;
+  list-style: none;
+}
+.hamburger-menu-list li a{
+  font-weight: 400;
+}
+.hamburger-menu-list li a:hover{
+  font-weight: 700;
+}
+
+.hamburger-menu-img{
+  margin-top: 114px;
+
+}
+
+
 
 header {
   background-color: var(--black);
@@ -338,6 +372,10 @@ header {
 }
 
 @media screen and (min-width: 376px) and (max-width: 768px){
+    .hamburger-menu{
+      display: block;
+      margin: auto;
+    }
     header {
       background-color: var(--black);
       color: var(--white);
