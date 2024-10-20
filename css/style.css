@@ -1230,53 +1230,57 @@ form button:hover {
   .image-section {
     visibility: hidden;
   }
-  .reviews{
+
+  .reviews {
     width: 704px;
-     height: 300px;
+    height: 300px;
     top: 100px;
-      left: 32px;
-      gap: 0px;
-      opacity: 0px;
-      position: relative;
+    left: 32px;
+    gap: 0px;
+    opacity: 0px;
+    position: relative;
   }
-  .amanda-border{
+
+  .amanda-border {
     visibility: hidden;
   }
-  .person-review
-  .abraham-border{
-   width: 640px;
-      height: 196px;
-      top: 104px;
-      left: 32px;
-      margin: 0 auto;
-      position:absolute;
-      
+
+  .person-review .abraham-border {
+    width: 640px;
+    height: 196px;
+    top: 104px;
+    left: 32px;
+    margin: 0 auto;
+    position: absolute;
+
   }
-    #reviews p{
-      width: 600px;
-        height: 80px;
-        top: 200px;
-        left: 52px;
-        gap: 0px;
-        opacity: 0px;
-    }
-  .reviews-p{
-      margin-top:20px;
-      text-align:justify;
-  font-family: DM Sans;
+
+  #reviews p {
+    width: 600px;
+    height: 80px;
+    top: 200px;
+    left: 52px;
+    gap: 0px;
+    opacity: 0px;
+  }
+
+  .reviews-p {
+    margin-top: 20px;
+    text-align: justify;
+    font-family: DM Sans;
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
     letter-spacing: -0.02em;
 
   }
-    .person-review
-   .stars-image{
+
+  .person-review .stars-image {
     width: 116px;
-      height: 20px;
-      margin-left: 488px;
-      gap: 4px;
-   }
+    height: 20px;
+    margin-left: 488px;
+    gap: 4px;
+  }
 }
 
 /*mobile*/
@@ -1380,55 +1384,53 @@ form button:hover {
 
   .reviews-title h1 {
     text-align: left;
-width: 100px;
-  height: 32px;
-font-family: DM Sans;
-  font-size: 28px;
-  font-weight: 500;
-  line-height: 32px;
-  letter-spacing: -0.04em;
-  text-align: left;
+    width: 100px;
+    height: 32px;
+    font-family: DM Sans;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: -0.04em;
+    text-align: left;
   }
 
   .reviews {
     width: 335px;
-     height: 316px;
-      top: 5122px;
-      left: 20px;
-  padding-left: 20px;
+    height: 316px;
+    top: 5122px;
+    left: 20px;
+    padding-left: 20px;
 
   }
-.person-review
-    .abraham-border {
-width: 335px;
-  height: 244px;
-  top: 5122px;
-  left: 20px;
+
+  .person-review .abraham-border {
+    width: 335px;
+    height: 244px;
+    top: 5122px;
+    left: 20px;
   }
-             #reviews p {
-max-width: 295px;
-  max-height: 108px;
-  top: 188px;
-  left: 20px;
-margin-top: 20px;
 
-             }
- .reviews-p{
-font-family: DM Sans;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 18px;
-  letter-spacing: -0.02em;
-  text-align: left;
+  #reviews p {
 
- }
-            .person-review .stars-image {   
-                      width: 96px;
-                        height: 16px;
-                        margin-left: 66px;
-                        gap: 4px;
-                        margin-top: 60px;
-            }
+    width: 295px;
+    height: 108px;
+    top: 20px;
+    font-family: DM Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    position: relative;
+  }
+
+  .person-review .stars-image {
+    width: 96px;
+    height: 16px;
+    margin-left: 66px;
+    gap: 4px;
+    margin-top: 60px;
+  }
 }
 
 
