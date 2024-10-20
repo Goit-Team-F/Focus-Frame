@@ -1398,28 +1398,81 @@ font-family: DM Sans;
   padding-left: 20px;
 
   }
-
+.person-review
     .abraham-border {
-max-width: 335px;
-max-height: 244px;
-margin:0 auto;
-
+width: 335px;
+  height: 244px;
+  top: 5122px;
+  left: 20px;
   }
+             #reviews p {
+max-width: 295px;
+  max-height: 108px;
+  top: 188px;
+  left: 20px;
+margin-top: 20px;
+
+             }
  .reviews-p{
-  max-width: 295px;
-    max-height: 108px;
 font-family: DM Sans;
   font-size: 14px;
   font-weight: 400;
   line-height: 18px;
   letter-spacing: -0.02em;
   text-align: left;
-  
 
-   
  }
+            .person-review .stars-image {   
+                      width: 96px;
+                        height: 16px;
+                        margin-left: 66px;
+                        gap: 4px;
+                        margin-top: 60px;
+            }
+ /* 2.
+     .amanda-border {
+       visibility: hidden;
+     }
+  
+     .person-review .abraham-border {
+      
+       width: 640px;
+       height: 196px;
+       top: 104px;
+       left: 32px;
+       margin: 0 auto;
+       position: absolute;
+  
+     }
+  
+     #reviews p {
+       width: 600px;
+       height: 80px;
+       top: 200px;
+       left: 52px;
+       gap: 0px;
+       opacity: 0px;
+     }
+  
+     .reviews-p {
+       margin-top: 20px;
+       text-align: justify;
+       font-family: DM Sans;
+       font-size: 16px;
+       font-weight: 400;
+       line-height: 20px;
+       letter-spacing: -0.02em;
+  
+     }
+  
+     .person-review .stars-image {
+       width: 116px;
+       height: 20px;
+       margin-left: 488px;
+       gap: 4px;
+     }
 
-
+*/
 }
 
 
