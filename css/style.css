@@ -206,6 +206,14 @@ header {
 .amanda-border{
   visibility: hidden;
 }
+ #reviews{
+  margin: auto;
+  max-width: 100%;
+  display: inline-block;
+  position: relative;
+  width: 704px;
+  height: 300px;  
+}
 }
 .reviews {
   margin: auto;
