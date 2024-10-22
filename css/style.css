@@ -146,9 +146,6 @@ header {
 /*mobile*/
 
 @media screen and (max-width: 375px) {
-  .image-section {
-    visibility: hidden;
-  }
 
   .amanda-border {
     visibility: hidden;
