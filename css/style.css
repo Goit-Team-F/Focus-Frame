@@ -165,17 +165,17 @@ header {
   }
 
   .reviews {
-    min-width: 335px;
+   width: 335px;
     min-height: 316px;
     left: 20px;
     padding-left: 20px;
-
+    display: flex;
   }
-
   .person-review .abraham-border {
     width: 335px;
     height: 244px;
     left: 20px;
+    display: flex;
   }
 
   #reviews p {
