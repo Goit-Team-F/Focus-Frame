@@ -165,9 +165,8 @@ header {
   }
 
   .reviews {
-    width: 335px;
-    height: 316px;
-    top: 5122px;
+    min-width: 335px;
+    min-height: 316px;
     left: 20px;
     padding-left: 20px;
 
@@ -176,7 +175,6 @@ header {
   .person-review .abraham-border {
     width: 335px;
     height: 244px;
-    top: 5122px;
     left: 20px;
   }
 
