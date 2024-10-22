@@ -85,74 +85,14 @@ header {
 
 }
 
-
-@media screen and (min-width: 375px) and (max-width: 767px) {
-  body{
-    position: relative;
-  }
-  .amanda-border {
-    visibility: hidden;
-  }
-
-  .person-review .abraham-border {
-    max-width: 640px;
-    max-height: 196px;
-    top: 104px;
-    left: 32px;
-    margin: 0 auto;
-    position: absolute;
-    display: flex;
-
-  }
-
-  .reviews {
-    max-width: 704px;
-    height: 300px;
-    top: 100px;
-    left: 32px;
-    gap: 0px;
-    opacity: 0px;
-    position: relative;
-  }
-
-  #reviews p {
-    max-width: 600px;
-    max-height: 80px;
-    top: 200px;
-    left: 52px;
-    gap: 0px;
-    opacity: 0px;
-    text-align: justify;
-  }
-
-  .reviews-p {
-    margin-top: 20px;
-    text-align: justify;
-    font-family: DM Sans;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 20px;
-    letter-spacing: -0.02em;
-
-  }
-
-  .person-review .stars-image {
-    max-width: 116px;
-    max-height: 20px;
-    gap: 4px;
-  }
-
-}
-
-
 /*Tablet*/
-@media screen and (min-width: 767px) {
+@media screen and (min-width: 375px) and (max-width: 767px) {
   body {
     position: relative;
   }
 
   .reviews {
-    max-width: 704px;
+   max-width: 704px;
     height: 300px;
     top: 100px;
     left: 32px;
@@ -263,21 +203,19 @@ header {
   }
 }
 
-@media screen and (min-width:768px) and (max-width: 1279px) {
-  .amanda-border {
-    visibility: hidden;
-  }
-
-  #reviews {
-    margin: auto;
-    max-width: 100%;
-    display: inline-block;
-    position: relative;
-    width: 704px;
-    height: 300px;
-  }
+@media screen  and (min-width:768px) and (max-width: 1279px) {
+.amanda-border{
+  visibility: hidden;
 }
-
+ #reviews{
+  margin: auto;
+  max-width: 100%;
+  display: inline-block;
+  position: relative;
+  width: 704px;
+  height: 300px;  
+}
+}
 .reviews {
   margin: auto;
   max-width: 100%;
