@@ -503,7 +503,8 @@ header {
 /* Sign Up Başlangıç */
 
 .sing-up {
-  width: 1240px;
+  width: 100%;
+  max-width: 1240px;
   height: 578px;
   position: relative;
   background-color: var(--black);
@@ -518,6 +519,8 @@ header {
   width: 480px;
   height: 578px;
   position: absolute;
+  left: 100px;
+  gap: 200px;
 }
 .form-content h2 {
   width: 159px;
@@ -639,6 +642,12 @@ form button:hover {
   position: absolute;
   top: 139px;
   left: 258px;
+}
+@media screen and (max-width:768px) {
+  .image-section{
+    display: none;
+  }
+  
 }
 /* Sign Up Bitişi */
 /* Reviews Başlangıç */
@@ -1037,7 +1046,7 @@ footer {
     align-items: center;
     /* margin: auto; */
     background-color: var(--white);
-    color: var(--black);
+    color: var(--white);
     border-radius: 12px;
   }
   .sign-up:hover {
@@ -1180,10 +1189,12 @@ footer {
     background-color: white;
   }
   .form-content {
-    width: 480px;
+    width: 100%;
+    max-width: 480px;
     height: 577px;
-    position: absolute;
     left: 32px;
+    margin-top: auto;
+    margin-bottom: auto;
     color: var(--white);
     background-color: var(--black);
   }
@@ -1225,9 +1236,6 @@ footer {
     font-size: 14px;
     line-height: 18px;
     color: #ffffff80;
-  }
-  .image-section {
-    visibility: hidden;
   }
 }
 /* Media bölümü 375-767 Mobilden > Tablete Bölümün Bitişi */
@@ -1328,10 +1336,13 @@ footer {
     left: 100px;
     gap: 60px;
   }
+  
   .form-content {
-    width: 480px;
+    width: 100%;
+    max-width: 480px;
     height: 577px;
-    position: absolute;
+    top: auto;
+    bottom: auto;
     left: 32px;
     color: var(--white);
     background-color: var(--black);
@@ -1551,6 +1562,14 @@ footer {
     letter-spacing: -0.4px;
   }
   /* About Us Bitimi */
+  /*section-sign--up başlangıç*/
+  .form-content {
+    width: 480px;
+    height: 578px;
+    position: absolute;
+    left: 100px;
+    gap: 200px;
+  }
 }
 @media (min-width: 1440px) {
   .aboutus {
@@ -1686,6 +1705,14 @@ footer {
     line-height: 20px;
     letter-spacing: -0.4px;
   }
+  
+  
+    
+}
+@media (max-width:768) {
+  .image-section{
+    display: none;
+  }     
 }
 @media (min-width: 1280px) {
   .aboutus {
@@ -1717,6 +1744,14 @@ footer {
   .au-text-seccond {
     width: 264px;
     letter-spacing: -0.4px;
+  }
+  .form-content {
+    width: 100%;
+    max-width: 480px;
+    height: 578px;
+    position: absolute;
+    left: 100px;
+    gap: 200px;
   }
 }
 @media (min-width: 1440px) {
@@ -1887,9 +1922,7 @@ footer {
     gap: 4px;
     margin-top: 60px;
   }
-  .image-section{
-    display: none;
-  }
+  
 }
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
