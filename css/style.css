@@ -2044,3 +2044,12 @@ footer {
   align-items: center;
   margin-bottom: 20px;
 }
+@media(max-width:375px){
+  .image-section{
+  visibility: hidden;
+}
+.sign-up{
+  max-width: 335px;
+  max-height: 523px;
+}
+}
